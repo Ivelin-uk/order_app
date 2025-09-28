@@ -29,7 +29,19 @@ class ProductController
                 'name' => 'Продукт 3',
                 'price' => 15.75,
                 'description' => 'Описание на продукт 3'
-            ]
+            ],
+            [
+                'id' => 4,
+                'name' => 'Продукт 4',
+                'price' => 30.00,
+                'description' => 'Описание на продукт 4'
+            ],
+            [
+                'id' => 5,
+                'name' => 'Продукт 5',
+                'price' => 12.49,
+                'description' => 'Описание на продукт 5'
+            ],
         ];
 
         return response()->json($products);
